@@ -1,0 +1,49 @@
+Class encoding:
+PTE: 0
+TBI: 1
+Fold 1
+Accuracy: 0.8462
+Precision: 0.8462
+Recall: 0.8462
+F1-score: 0.8462
+
+Fold 2
+Accuracy: 0.5385
+Precision: 0.5245
+Recall: 0.5385
+F1-score: 0.4744
+
+Fold 3
+Accuracy: 0.3846
+Precision: 0.3547
+Recall: 0.3846
+F1-score: 0.3615
+
+Fold 4
+Accuracy: 0.5385
+Precision: 0.5385
+Recall: 0.5385
+F1-score: 0.5385
+
+Fold 5
+Accuracy: 0.5833
+Precision: 0.5729
+Recall: 0.5833
+F1-score: 0.5741
+
+Average Performance:
+Accuracy: 0.5782 (+/- 0.1500)
+Precision: 0.5673 (+/- 0.1585)
+Recall: 0.5782 (+/- 0.1500)
+F1-score: 0.5589 (+/- 0.1608)
+
+Detailed Classification Report (Last Fold):
+              precision    recall  f1-score   support
+
+         PTE       0.50      0.40      0.44         5
+         TBI       0.62      0.71      0.67         7
+
+    accuracy                           0.58        12
+   macro avg       0.56      0.56      0.56        12
+weighted avg       0.57      0.58      0.57        12
+
